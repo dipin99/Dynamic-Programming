@@ -2,12 +2,12 @@
 #include <bits/stdc++.h> 
 using namespace std;
 
-int static t[102][1002]={-1};  //for array size ebter constraints in your question size and capacity
+int static t[102][1002]={-1};  //for array size enter constraints in your question size and capacity
 
 
 int knapsack(int wt[],int val[],int w, int n)
 {
-	//memset (t,-1,sizeof(t));
+	
 	if(n==0 || w==0)
 		return 0;
 	
